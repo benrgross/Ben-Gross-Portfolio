@@ -5,6 +5,8 @@ body {
   margin: auto;
 }
 
+/* addded background photo */
+
 body {
   background: url(https://cdn.nohat.cc/thumb/f/720/724e22560fa94b098e4d.jpg)
     no-repeat center center fixed;
@@ -14,21 +16,45 @@ body {
   -o-background-size: cover;
 }
 
+/* A column for my about me content  */
 .Text-Box {
-  background-color: #fff;
+  background-color: rgb(252, 251, 249);
   width: 50%;
-  height: 650px;
+  height: 500px;
   z-index: 1;
   float: left;
   position: fixed;
-  top: 100px;
+  top: 150px;
   left: 40px;
   border: 1px solid aliceblue;
   margin-left: 5%;
   padding: 30px;
+  overflow: auto;
 }
 
+/* Applied bottom boarders for headers */
 h1 {
   border-bottom: 1px solid #cccccc;
   height: 80px;
+}
+
+#Ben-Pic {
+  max-width: 30%;
+  border: none;
+  float: left;
+  margin-right: 8px;
+}
+
+p {
+  font-size: 1vw;
+}
+
+#footer {
+  clear: both;
+  padding: 20px;
+  background-color: rgb(248, 235, 213);
+  border-top: 5px solid floralwhite;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
 }
