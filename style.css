@@ -1,0 +1,9 @@
+/* addded background photo */
+body {
+  background: url(https://cdn.nohat.cc/thumb/f/720/724e22560fa94b098e4d.jpg)
+    no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
