@@ -1,4 +1,10 @@
 /* addded background photo */
+
+body {
+  box-sizing: border-box;
+  margin: auto;
+}
+
 body {
   background: url(https://cdn.nohat.cc/thumb/f/720/724e22560fa94b098e4d.jpg)
     no-repeat center center fixed;
@@ -7,3 +13,19 @@ body {
   background-size: cover;
   -o-background-size: cover;
 }
+
+.Text-Box {
+    background-color: #fff;
+    width: 60%;
+    height: 650px;
+    z-index: 1;
+    float: left;
+    position: fixed;
+    top: 100px;
+    left: 40px;
+    border: 1px solid aliceblue;
+  }
+}
+
+.
+
