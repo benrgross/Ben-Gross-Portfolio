@@ -15,17 +15,20 @@ body {
 }
 
 .Text-Box {
-    background-color: #fff;
-    width: 60%;
-    height: 650px;
-    z-index: 1;
-    float: left;
-    position: fixed;
-    top: 100px;
-    left: 40px;
-    border: 1px solid aliceblue;
-  }
+  background-color: #fff;
+  width: 50%;
+  height: 650px;
+  z-index: 1;
+  float: left;
+  position: fixed;
+  top: 100px;
+  left: 40px;
+  border: 1px solid aliceblue;
+  margin-left: 5%;
+  padding: 30px;
 }
 
-.
-
+h1 {
+  border-bottom: 1px solid #cccccc;
+  height: 80px;
+}
