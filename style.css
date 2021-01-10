@@ -30,6 +30,7 @@ body {
   margin-left: 5%;
   padding: 30px;
   overflow: auto;
+  margin-top: -50px;
 }
 
 /* Applied bottom boarders for headers */
