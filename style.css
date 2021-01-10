@@ -19,7 +19,7 @@ body {
 /* A column for my about me content  */
 .Text-Box {
   background-color: rgb(252, 251, 249);
-  width: 50%;
+  width: 60%;
   height: 500px;
   z-index: 1;
   float: left;
