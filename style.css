@@ -1,13 +1,4 @@
 /* addded background photo */
-
-body {
-  box-sizing: border-box;
-  margin: auto;
-  font-family: "Prata", serif;
-}
-
-/* addded background photo */
-
 body {
   background: url(https://cdn.nohat.cc/thumb/f/720/724e22560fa94b098e4d.jpg)
     no-repeat center center fixed;
@@ -15,6 +6,18 @@ body {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
+  box-sizing: border-box;
+  margin: auto;
+  font-family: "Prata", serif;
+}
+
+/* styled p w/ media querie */
+@media (min-width: 600px) {
+  p {
+    font-size: 16px;
+    font-family: "Prata", serif;
+    line-height: 2;
+  }
 }
 
 /* A column for my about me content  */
@@ -45,7 +48,7 @@ h1 {
   max-width: 30%;
   border: none;
   float: left;
-  margin-right: 8px;
+  margin-right: 15px;
 }
 
 /* styled p w/ media querie */
