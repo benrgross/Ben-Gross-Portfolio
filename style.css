@@ -21,11 +21,10 @@ body {
 .Text-Box {
   background-color: rgb(252, 251, 249);
   width: 60%;
-  height: 550px;
   z-index: 0;
   float: left;
   position: fixed;
-  top: 150px;
+  top: 200px;
   left: 40px;
   border: 1px solid aliceblue;
   margin-left: 5%;
@@ -53,6 +52,7 @@ p {
   font-size: 1.5vw;
   font-size: px;
   font-family: "Prata", serif;
+  line-height: 1.5;
 }
 
 /* styled footer  */
