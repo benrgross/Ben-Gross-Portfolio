@@ -29,7 +29,7 @@ body {
   margin-left: 5%;
   padding: 15px;
   overflow: auto;
-  margin-top: -50px;
+  margin-top: -90px;
 }
 
 /* Applied bottom boarders for headers */
@@ -48,12 +48,13 @@ h1 {
   margin-right: 8px;
 }
 
-/* styled p  */
-p {
-  font-size: 1.5vw;
-  font-size: px;
-  font-family: "Prata", serif;
-  line-height: 2;
+/* styled p w/ media querie */
+@media (min-width: 600px) {
+  p {
+    font-size: 16px;
+    font-family: "Prata", serif;
+    line-height: 2;
+  }
 }
 
 /* styled footer  */
