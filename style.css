@@ -37,6 +37,7 @@ h1 {
   border-bottom: 1px solid #cccccc;
   height: 80px;
   color: rgb(159, 206, 189);
+  margin-top: 20px;
 }
 
 /* styled about photo  */
@@ -67,12 +68,14 @@ p {
   width: 100%;
 }
 
+/* portfolio image styles  */
 #portfolio-img {
   padding: 1px;
   border-color: rgb(252, 251, 249);
   margin-bottom: 10px;
 }
 
+/* transition for images to enlarge when hover - not working right  */
 #portfolio-img:hover {
   box-shadow: 4px 4px 4px;
   height: 325px;
