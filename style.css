@@ -6,33 +6,32 @@ body {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-  box-sizing: border-box;
-  margin: auto;
   font-family: "Prata", serif;
 }
 
 /* styled p w/ media querie */
 @media (min-width: 600px) {
   p {
-    font-size: 10px;
+    font-size: 12px;
     font-family: "Prata", serif;
     line-height: 2;
   }
 }
 
 /* A column for my about me content  */
+
 .Text-Box {
   background-color: rgb(252, 251, 249);
-  width: 60%;
+  width: 50%;
   float: left;
-  position: fixed;
   top: 200px;
   left: 40px;
   border: 1px solid aliceblue;
-  margin-left: 5%;
+  margin-left: 10%;
   padding: 15px;
+  margin-top: 40px;
   overflow: auto;
-  margin-top: -100px;
+  margin-bottom: 100px;
 }
 
 /* Applied bottom boarders for headers */
@@ -51,15 +50,6 @@ h1 {
   margin-right: 15px;
 }
 
-/* styled p w/ media querie */
-@media (min-width: 600px) {
-  p {
-    font-size: 12px;
-    font-family: "Prata", serif;
-    line-height: 2;
-  }
-}
-
 /* styled footer  */
 #footer {
   clear: both;
@@ -70,6 +60,7 @@ h1 {
   bottom: 0px;
   left: 0px;
   width: 100%;
+  margin-top: 50px;
 }
 
 /* portfolio image styles  */
