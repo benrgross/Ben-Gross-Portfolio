@@ -86,3 +86,7 @@ h1 {
   width: 325px;
   transition: all 500ms;
 }
+
+#leaf {
+  color: rgb(245, 216, 153);
+}
