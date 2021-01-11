@@ -3,6 +3,7 @@
 body {
   box-sizing: border-box;
   margin: auto;
+  font-family: "Prata", serif;
 }
 
 /* addded background photo */
@@ -51,6 +52,7 @@ h1 {
 p {
   font-size: 1.5vw;
   font-size: px;
+  font-family: "Prata", serif;
 }
 
 /* styled footer  */
