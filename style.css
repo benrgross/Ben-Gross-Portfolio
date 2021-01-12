@@ -7,6 +7,7 @@ body {
   background-size: cover;
   -o-background-size: cover;
   font-family: "Prata", serif;
+  margin: auto;
 }
 
 /* A column for my about me content  */
@@ -18,7 +19,7 @@ body {
   top: 200px;
   left: 40px;
   border: 1px solid aliceblue;
-  margin-left: 10%;
+  margin-left: 15%;
   padding: 15px;
   margin-top: 100px;
   overflow: auto;
