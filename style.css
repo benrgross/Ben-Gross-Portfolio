@@ -9,15 +9,6 @@ body {
   font-family: "Prata", serif;
 }
 
-/* styled p w/ media querie */
-@media (min-width: 600px) {
-  p {
-    font-size: 12px;
-    font-family: "Prata", serif;
-    line-height: 2;
-  }
-}
-
 /* A column for my about me content  */
 
 .Text-Box {
@@ -78,4 +69,18 @@ h1 {
 /* gave nav links margins for spacing  */
 .nav-link {
   margin: 0px 10px;
+}
+
+/* styled p w/ media querie */
+@media (min-width: 600px) {
+  p {
+    font-size: 1.25 rem;
+  }
+}
+
+@media (min-width: 800px) {
+  p {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
 }
