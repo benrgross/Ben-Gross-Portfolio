@@ -4,18 +4,18 @@ Ben Gross's Portfolio website aims to introduce the visitor to Ben Gross. With a
 
 The Website uses Bootstrap 5.0 to deploy reactive design that seamlessly adjust to the screen size, providing easy access and readability to mobil frameworks up to large screens. To achieve this layout; a nav bar, containers with rows and coulombs, bootstrap class selectors and and a sticky footer were patched into the HTML framework. For text media queries were deployed to resize text as the window size moved from mobil to large screens.
 
-![Alt text](assets/images/Ben-Gross-About.png)
+![Alt text](images/Ben-Gross-About.png)
 
-![Alt text](assets/images/Ben-Gross-Portfolio.png)
+![Alt text](images/Ben-Gross-Portfolio.png)
 
-![Alt text](assets/images/Ben-Gross-Contact.png)
+![Alt text](images/Ben-Gross-Contact.png)
 
 Mobil application:
 
-![Alt text](assets/images/Mobil-Ben-Gross-About.png)
+![Alt text](images/Mobil-Ben-Gross-About.png)
 
-![Alt text](assets/images/Mobil-Ben-Gross-Portfolio.png)
+![Alt text](images/Mobil-Ben-Gross-Portfolio.png)
 
-![Alt text](assets/images/Mobil-Ben-Gross-Contact.png)
+![Alt text](images/Mobil-Ben-Gross-Contact.png)
 
 Website Link: https://benrgross.github.io/Ben-Gross-Portfolio/
