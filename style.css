@@ -26,6 +26,19 @@ body {
   margin-bottom: 100px;
 }
 
+.gif-zoom {
+  background-color: rgb(252, 251, 249);
+  float: left;
+  top: 200px;
+  left: 40px;
+  border: 1px solid aliceblue;
+  margin-left: 15%;
+  padding: 15px;
+  margin-top: 100px;
+  overflow: auto;
+  margin-bottom: 100px;
+}
+
 /* Applied bottom boarders for headers */
 h1 {
   border-bottom: 1px solid #cccccc;
@@ -56,12 +69,16 @@ h1 {
 }
 
 /* portfolio image styles  */
-#portfolio-img {
+.portfolio-img {
   padding: 1px;
   border-color: rgb(252, 251, 249);
   margin-bottom: 10px;
 }
-
+/* 
+.portfolio-img:hover {
+  height: 900px;
+  width: 900px;
+} */
 /* added icon to footer bar  */
 #leaf {
   color: rgb(248, 225, 178);
@@ -70,6 +87,12 @@ h1 {
 /* gave nav links margins for spacing  */
 .nav-link {
   margin: 0px 10px;
+}
+
+#back {
+  float: left;
+  bottom: 200px;
+  left: 35px;
 }
 
 /* styled p w/ media querie */
