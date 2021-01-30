@@ -11,7 +11,9 @@ body {
 }
 
 /* A column for my about me content  */
-
+.portfolio-img:hover {
+  border: 2px solid blue;
+}
 .Text-Box {
   background-color: rgb(252, 251, 249);
   width: 50%;
@@ -40,7 +42,8 @@ body {
 }
 
 /* Applied bottom boarders for headers */
-h1 {
+h1,
+h4 {
   border-bottom: 1px solid #cccccc;
   height: 80px;
   color: rgb(159, 206, 189);
@@ -87,12 +90,6 @@ h1 {
 /* gave nav links margins for spacing  */
 .nav-link {
   margin: 0px 10px;
-}
-
-#back {
-  float: left;
-  bottom: 200px;
-  left: 35px;
 }
 
 /* styled p w/ media querie */

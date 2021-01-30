@@ -6,17 +6,26 @@ $("#code-quiz").click(function () {
 
   //   build new div with zoomed gif
   var zoomGif = $("<div>").attr("class", "gif-zoom");
+  var header = $("<h4>").html(
+    `Code Quiz | <a href="https://github.com/benrgross/">Link to Git Hub Repository</a> | <a href="https://benrgross.github.io/Coding-Quiz/">Link to Webpage</a>`
+  );
   var gif = $("<img>")
     .attr("src", "./images/Code-Quiz.gif")
-    .attr("style", "height: 500px; width: 500px; margin: auto");
-  var icon = $(
-    `<i id="back" style="hight: 20px" class="fas fa-backspace"></i>`
-  );
+    .attr(
+      "style",
+      "height: 500px; width: 500px; margin-left: 5%; margin top: 20px"
+    );
+  var back = $("<button>")
+    .attr("class", "btn btn-primary back")
+    .attr("style", "float: left")
+    .html(`<i class="fas fa-arrow-circle-left"></i>`);
+
+  zoomGif.append(header);
   zoomGif.append(gif);
-  zoomGif.append(icon);
+  zoomGif.append(back);
   $("body").append(zoomGif);
 
-  $("#back").click(function () {
+  $(".back").click(function () {
     console.log("click");
     zoomGif.remove();
     $(".Text-Box").removeAttr("style", "display: none");
@@ -31,17 +40,25 @@ $("#weather-dashboard").click(function () {
 
   //   build new div with zoomed gif
   var zoomGif = $("<div>").attr("class", "gif-zoom");
+  var header = $("<h4>").html(
+    `Weather Dashboard | <a href="https://github.com/benrgross/Weather-Dashboard">Link to Git Hub Repository</a> | <a href="https://benrgross.github.io/Weather-Dashboard/">Link to Webpage</a>`
+  );
   var gif = $("<img>")
     .attr("src", "./images/Weather-Dash.gif")
-    .attr("style", "height: 500px; width: 500px; margin: auto");
-  var icon = $(
-    `<i id="back" style="hight: 20px" class="fas fa-backspace"></i>`
-  );
+    .attr(
+      "style",
+      "height: 500px; width: 500px; margin-left: 12%; margin top: 20px"
+    );
+  var back = $("<button>")
+    .attr("class", "btn btn-primary back")
+    .attr("style", "float: left")
+    .html(`<i class="fas fa-arrow-circle-left"></i>`);
+  zoomGif.append(header);
   zoomGif.append(gif);
-  zoomGif.append(icon);
+  zoomGif.append(back);
   $("body").append(zoomGif);
 
-  $("#back").click(function () {
+  $(".back").click(function () {
     console.log("click");
     zoomGif.remove();
     $(".Text-Box").removeAttr("style", "display: none");
@@ -56,17 +73,26 @@ $("#day-planner").click(function () {
 
   //   build new div with zoomed gif
   var zoomGif = $("<div>").attr("class", "gif-zoom");
+  var header = $("<h4>").html(
+    `Plan Your Workday | <a href="https://github.com/benrgross/Plan-Your-Workday">Link to Git Hub Repository</a> | <a href="https://benrgross.github.io/Plan-Your-Workday/">Link to Webpage</a>`
+  );
   var gif = $("<img>")
     .attr("src", "./images/day-planner.gif")
-    .attr("style", "height: 500px; width: 500px; margin: auto");
-  var icon = $(
-    `<i id="back" style="hight: 20px" class="fas fa-backspace"></i>`
-  );
+    .attr(
+      "style",
+      "height: 500px; width: 500px; margin-left: 15%; margin-top: 20px"
+    );
+  var back = $("<button>")
+    .attr("class", "btn btn-primary back")
+    .attr("style", "float: left")
+    .html(`<i class="fas fa-arrow-circle-left"></i>`);
+
+  zoomGif.append(header);
   zoomGif.append(gif);
-  zoomGif.append(icon);
+  zoomGif.append(back);
   $("body").append(zoomGif);
 
-  $("#back").click(function () {
+  $(".back").click(function () {
     console.log("click");
     zoomGif.remove();
     $(".Text-Box").removeAttr("style", "display: none");
