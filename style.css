@@ -14,7 +14,7 @@ body {
 .portfolio-img:hover {
   border: 2px solid blue;
 }
-.Text-Box {
+.text-box {
   background-color: rgb(252, 251, 249);
   width: 50%;
   float: left;

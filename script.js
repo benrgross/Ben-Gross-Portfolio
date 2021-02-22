@@ -2,7 +2,7 @@
 $("#code-quiz").click(function () {
   console.log("click");
   /// -------------- hide text box with gifs
-  $(".Text-Box").hide(".Text-Box");
+  $(".text-box").hide(".text-box");
 
   //   build new div with zoomed gif
   var zoomGif = $("<div>").attr("class", "gif-zoom");
@@ -28,7 +28,7 @@ $("#code-quiz").click(function () {
   $(".back").click(function () {
     console.log("click");
     zoomGif.remove();
-    $(".Text-Box").removeAttr("style", "display: none");
+    $(".text-box").removeAttr("style", "display: none");
   });
 });
 
@@ -36,7 +36,7 @@ $("#code-quiz").click(function () {
 $("#weather-dashboard").click(function () {
   console.log("click");
   /// -------------- hide text box with gifs
-  $(".Text-Box").hide(".Text-Box");
+  $(".text-box").hide(".text-box");
 
   //   build new div with zoomed gif
   var zoomGif = $("<div>").attr("class", "gif-zoom");
@@ -61,7 +61,7 @@ $("#weather-dashboard").click(function () {
   $(".back").click(function () {
     console.log("click");
     zoomGif.remove();
-    $(".Text-Box").removeAttr("style", "display: none");
+    $(".text-box").removeAttr("style", "display: none");
   });
 });
 
@@ -69,7 +69,7 @@ $("#weather-dashboard").click(function () {
 $("#day-planner").click(function () {
   console.log("click");
   /// -------------- hide text box with gifs
-  $(".Text-Box").hide(".Text-Box");
+  $(".text-box").hide(".text-box");
 
   //   build new div with zoomed gif
   var zoomGif = $("<div>").attr("class", "gif-zoom");
@@ -95,6 +95,39 @@ $("#day-planner").click(function () {
   $(".back").click(function () {
     console.log("click");
     zoomGif.remove();
-    $(".Text-Box").removeAttr("style", "display: none");
+    $(".text-box").removeAttr("style", "display: none");
+  });
+});
+
+$("#burger").click(function () {
+  console.log("click");
+  /// -------------- hide text box with gifs
+  $(".text-box").hide(".text-box");
+
+  //   build new div with zoomed gif
+  var zoomGif = $("<div>").attr("class", "gif-zoom");
+  var header = $("<h4>").html(
+    `Plan Your Workday | <a href="https://github.com/benrgross/Build-A-Burger">Link to Git Hub Repository</a> | <a href="https://burger-fun.herokuapp.com/">Link to Webpage</a>`
+  );
+  var gif = $("<img>")
+    .attr("src", "./images/burger.gif")
+    .attr(
+      "style",
+      "height: 500px; width: 500px; margin-left: 15%; margin-top: 20px"
+    );
+  var back = $("<button>")
+    .attr("class", "btn btn-primary back")
+    .attr("style", "float: left")
+    .html(`<i class="fas fa-arrow-circle-left"></i>`);
+
+  zoomGif.append(header);
+  zoomGif.append(gif);
+  zoomGif.append(back);
+  $("body").append(zoomGif);
+
+  $(".back").click(function () {
+    console.log("click");
+    zoomGif.remove();
+    $(".text-box").removeAttr("style", "display: none");
   });
 });
